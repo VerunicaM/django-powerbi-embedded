@@ -26,7 +26,7 @@ Finally you have to define these environment variables:
 - AZURE_TENANT_ID 
 - AZURE_CLIENT_ID
 
-If you do not want to use environment variables in your settings.py file, you can replace every `os.environ["YOUR_ENVIRONMENT_VARIABLE"]` with hardcoded variables, but please keep in mind that you should not do this in a production environment.
+If you do not want to use environment variables in your [pbi_embedded/settings.py](./pbi_embedded/settings.py) file, you can replace every `os.environ["YOUR_ENVIRONMENT_VARIABLE"]` with hardcoded variables, but please keep in mind that you should not do this in a production environment.
 
 
 ### Contribute
